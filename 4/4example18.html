@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .first{
+            margin:10px auto;
+            width: 400px;
+            text-align: center;
+        }
+         .bottom{
+             border-bottom: solid 1px #666666;
+         }
+        .one{
+            width: 120px;
+            height: 50px;
+            background:url('../img/3.png') no-repeat 0 -60px;
+        }
+        .two{
+            display: inline-block;
+        }
+        .second{
+            margin: 0px 40px;
+            text-align: right;
+        }
+      table input{
+           height: 40px;
+           width: 250px;
+           border: solid 1px #C3C4C4;
+       }
+   .four{
+       width: 240px;
+       height: 40px;
+       background: #2D9FD5;
+       color: #F6F6F6;
+       font-size: 20px;
+      margin-top: 15px;
+       margin-left: 30px;
+
+   }
+    </style>
+</head>
+<body>
+<div class="first bottom">
+<div class="one two"></div><span class="two">|注册百度账号</span>
+</div>
+<div class="first">
+<table class="second" cellspacing="6">
+    <tr><td>姓名</td><td><input type="text" placeholder="请设置用户名"></td><tr>
+    <tr><td>手机号</td><td><input type="text" placeholder="可用于登陆和找回密码"></td></tr>
+    <tr><td>验证码</td><td><input type="text" placeholder="请输入验证码"></td></tr>
+    <tr><td>密码</td><td><input type="text" placeholder="请设置密码"></td></tr>
+</table>
+</div>
+<div class="first"><p style="text-align: center">
+    <input style="margin-left: 30px;line-height: 50px" type="checkbox">
+    <span>阅读并接受《百度用户协议》</span>
+</p>
+<input class="four" type="button" value="立即注册">
+</div>
+</body>
+</html>
