@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let num=prompt('请输入一个数');
+    //得到位数可以计算幂数
+    var length=num.length;
+    console.log(length);
+    //使用字符串的方法获取每一位数
+    let  content=num.split("");
+    let result=0;
+    for(let i=0;i<content.length;i++){
+        result+=Math.pow(content[i],length);
+    }
+    alert(result==num?'这个数是水仙花数':'这个数不是水仙花数')
+
+
+</script>
+</html>

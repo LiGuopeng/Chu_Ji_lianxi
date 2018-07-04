@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    for(let n=100; n<1000;n++){
+       let i=parseInt(n/100);
+        let j=parseInt((n-i*100)/10);
+         let  k=n%10;
+        if(i*i*i+j*j*j+k*k*k===n){
+         console.log(n);
+      }
+    }
+
+
+</script>
+</body>
+</html>

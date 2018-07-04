@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<script>
+   /* let i=document.body.getElementsByTagName('input')[0];
+    window.onload=function () {
+        let i1=i.value;
+        console.log(i1)
+         if(i1%2===0&&i1>0){
+             alert('ou术')
+         }else{
+             alert('技术')
+         }
+    }*/
+
+     let  num=prompt('q请输入一个数');
+     f(num);
+      function f(num) {
+          let a=parseInt(num);
+          switch (a%2){
+              case 0:
+                  document.write("是偶数");
+                  break;
+              case 1:
+                  document.write("是奇数");
+                  break;
+              default:
+                  alert("您玩我，不是数字，请重新输入");
+                  let  num=prompt('q请输入一个数');
+                  f(mun);
+                  break;
+          }
+      }
+</script>
+</html>
