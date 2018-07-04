@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .fl{
+            float: left;
+        }
+        .fr{
+            float: right;
+        }
+        .clear{
+            clear: both;
+        }
+        .top-box{
+            width: 100%;
+        }
+        .top-box1{
+            width: 90%;
+            margin: 20px auto;
+        }
+        top-box2{
+            width: 100%;
+        }
+        .top-1{
+            width: 100%;
+            height: 40px;
+        }
+        h3{
+            display: inline;
+        }
+        .f-span{
+            font-size: 18px;
+        }
+        .p-size{
+            font-size: 12px;
+            color: #BABFBD;
+        }
+        .top-2 p{
+            margin-top: -20px;
+        }
+        .top-2 p a{
+            color: #797D73;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .box-img{
+            width: 100%;
+            margin-top: 30px;
+        }
+        .box-img1{
+            width: 250px;
+
+        }
+        .box-img2{
+            position: relative;
+            border: 1px solid #cccccc;
+        }
+        .p-img{
+            width: 70px;
+            height: 25px;
+            line-height: 25px;
+            background: #394043;
+            text-align: center;
+            font-size: 18px;
+            position: absolute;
+            top: 160px;
+            color: #ffffff;
+        }
+        .p-img1{
+            line-height: 30px;
+            margin-left: 20px;
+            color: #767B7D;
+        }
+        .p-img2{
+            line-height: 30px;
+            margin-left: 20px;
+            color: #C5C5C5;
+            font-size: 12px;
+        }
+        /*下面两种写法都行*/
+        .box-img1:not(:first-of-type){
+            margin-left: 70px;
+        }
+        /*.box-img1+.box-img1{
+            margin-left: 26px;
+        }*/
+        /*--------------------------*/
+        .box-zj{
+            width: 100%;
+            background: #EEEEF1;
+            display: inline-block;
+        }
+        .zj-img{
+            width: 100%;
+            margin-top: 30px;
+        }
+        .zj-img1{
+            width: 350px;
+            border: 1px solid #cccccc;
+        }
+        .zj-img1 p{
+            width: 310px;
+        }
+        .zj-img3{
+            height: 80px;
+            background: #ffffff;
+        }
+        .zj-img1{
+            margin-bottom: 50px;
+        }
+        h3{
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .zj-img3 p{
+            margin-left: 20px;
+            line-height: 30px;
+        }
+        .zj-img1:not(:first-of-type){
+            margin-left: 79px;
+        }
+        .bottom-box{
+            width: 100%;
+        }
+        .bottom-zize{
+            line-height: 80px;
+            text-align: center;
+            margin-top: -160px;
+            color: #ffffff;
+        }
+        .bottom-zize p{
+            display: block;
+            margin-top: -50px;
+            margin-left: 20px;
+            color: #FFF2AB;
+            font-weight: bolder;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="top-box">
+    <div class="top-box1">
+        <div class="top-1 fl">
+            <h3>二手好房</h3>&nbsp;&nbsp;<span class="f-span">为你而选</span>
+            <p class="p-size">好房源那么多，我们为你精选，链家网会越来越懂你</p>
+            <div class="fr top-2">
+                <p><a href="">更多北京二手房</a></p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="box-img">
+            <div class="box-img1 fl">
+                <div class="box-img2">
+                    <img src="../img/p1-2.jpg">
+                    <div class="p-img">900万</div>
+                    <p class="p-img1">紫金新干线  全南向两居室</p>
+                    <p class="p-img2">紫金新干线&nbsp;&nbsp;2室1厅&nbsp;&nbsp;82.05平米</p>
+                </div>
+                <p class="p-img2" style="margin-left: 0;">链家网推荐在售房源</p>
+            </div>
+            <div class="box-img1 fl">
+                <div class="box-img2">
+                    <img src="../img/p1-1.jpg">
+                    <div class="p-img">440万</div>
+                    <p class="p-img1">马家堡&nbsp;&nbsp;城南家园（益城园）</p>
+                    <p class="p-img2">益城园&nbsp;&nbsp;3室2厅&nbsp;&nbsp;149.05平米</p>
+                </div>
+                <p class="p-img2" style="margin-left: 0;">链家网推荐在售房源</p>
+            </div>
+            <div class="box-img1 fl">
+                <div class="box-img2">
+                    <img src="../img/p1-3.jpg">
+                    <div class="p-img">500万</div>
+                    <p class="p-img1">南北通透&nbsp;&nbsp;有钥匙&nbsp;&nbsp;看房方便</p>
+                    <p class="p-img2">新龙城&nbsp;&nbsp;2室1厅&nbsp;&nbsp;100.98平米</p>
+                </div>
+                <p class="p-img2" style="margin-left: 0;">链家网推荐在售房源</p>
+            </div>
+            <div class="box-img1 fl">
+                <div class="box-img2">
+                    <img src="../img/p1-4.jpg">
+                    <div class="p-img">338万</div>
+                    <p class="p-img1">鲁谷&nbsp;&nbsp;京汉&nbsp;&nbsp;全南两居室&nbsp;&nbsp;采</p>
+                    <p class="p-img2">广安&nbsp;&nbsp;康馨家园&nbsp;&nbsp;2室一厅&nbsp;&nbsp;72.93平米</p>
+                </div>
+                <p class="p-img2" style="margin-left: 0;">链家网推荐在售房源</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="box-zj">
+    <div class="box-zj1 top-box1">
+        <div class="top-1 fl">
+            <h3>小区</h3>&nbsp;&nbsp;<span class="f-span">为您推荐</span>
+            <p class="p-size">纵览小区，恋上这座城</p>
+            <div class="fr top-2">
+                <p><a href="">更多北京小区</a></p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="zj-img">
+            <div class="zj-img1 fl">
+                <div class="zj-img2">
+                    <img src="../img/p1-5.jpg">
+                </div>
+                <div class="zj-img3">
+                    <h3>裕中东里</h3>
+                    <p>
+                        <span class="fl" style="text-align: left">118942元/平</span>
+                        <span class="fr" style="text-align: right;color: #969099;font-size: 12px">1980年建</span>
+                    </p>
+                </div>
+            </div>
+            <div class="zj-img1 fl">
+                <div class="zj-img2">
+                    <img src="../img/p1-6.png">
+                </div>
+                <div class="zj-img3">
+                    <h3>裕中东里</h3>
+                    <p>
+                        <span class="fl" style="text-align: left">118942元/平</span>
+                        <span class="fr" style="text-align: right;color: #969099;font-size: 12px">1980年建</span>
+                    </p>
+                </div>
+            </div>
+            <div class="zj-img1 fl">
+                <div class="zj-img2">
+                    <img src="../img/p1-7.jpg">
+                </div>
+                <div class="zj-img3">
+                    <h3>裕中东里</h3>
+                    <p>
+                        <span class="fl" style="text-align: left">118942元/平</span>
+                        <span class="fr" style="text-align: right;color: #969099;font-size: 12px">1980年建</span>
+                    </p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="bottom-box">
+    <div class="box-zj1 top-box1">
+        <div class="top-1 fl">
+            <h3>新房</h3>&nbsp;&nbsp;<span class="f-span">新起航</span>
+            <p class="p-size">真实信息准确同步，楼盘动态一手掌握</p>
+            <div class="fr top-2">
+                <p><a href="">更多北京新房</a></p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="zj-img">
+            <div class="zj-img1 fl">
+                <div class="zj-img2">
+                    <img src="../img/p1-8.png">
+                </div>
+                <div class="bottom-zize">
+                    <h2>阳光城君山墅</h2>
+                    <p>28000元/平</p>
+                </div>
+            </div>
+            <div class="zj-img1 fl">
+                <div class="zj-img2">
+                    <img src="../img/p1-9.jpg">
+                </div>
+                <div class="bottom-zize">
+                    <h2>泰和昌平拾景园</h2>
+                    <p>780万/平</p>
+                </div>
+            </div>
+            <div class="zj-img1 fl">
+                <div class="zj-img2">
+                    <img src="../img/p1-10.png">
+                </div>
+                <div class="bottom-zize">
+                    <h2>通泰国际公馆</h2>
+                    <p>65000元/平</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+
+    function Student(name,age,sex) {
+        this.name=name;
+        this.age=age;
+        this.sex=sex;
+    }
+    Student.prototype.show=function () {
+         return this.name +  this.age + this.sex
+    }
+    let student=new Student('DASD','D','D')
+    console.log(student)
+</script>
+</html>
